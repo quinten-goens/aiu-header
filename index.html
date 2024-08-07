@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	
-	<title>EUROCONTROL</title>
 
-	<!-- Meta Tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="">
-	<meta name="description" content="">
+    <title>Aviation Intelligence Unit Portal</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.92.1">
+    <meta name="description" content=".img-responsive { margin: 0 auto; max-width: 75% } .resp-container { position: relative; overflow: hidden; padding-top: 50.">
+    
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,612 @@
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">    
 </head>
 
 <body>
-	
+
+<!-- Header START -->
+<header id="header" class="navbar navbar-expand-xl navbar-end navbar-absolute-top navbar-dark bg-dark">
+
+    <div class="container-fluid">
+
+        <nav id="nav" class="navbar-nav-wrap">
+
+            <a class="navbar-brand" href="https://eurocontrol.int">
+                <img class="navbar-brand-logo" src="assets/imgs/logo-light.svg" alt="PRU">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="aiu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AIU Home</a>
+               
+                        <div class="dropdown-menu" aria-labelledby="aiu">
+                            <a class="dropdown-item font-weight-bold" href="/"><i class="fas fa-home mr-1"></i>Home</a>
+                            <a class="dropdown-item font-weight-bold" href="/traffic"><i class="fas fa-plane-departure mr-1"></i>Traffic</a>
+                            <a class="dropdown-item" href="https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html"><span class="ml-4">Daily Traffic Dashboard</span></a>
+                            <a class="dropdown-item" href="/traffic/statfor"><span class="ml-4">Traffic Forecast</span></a>
+                            <a class="dropdown-item font-weight-bold" href="/efficiency"><i class="fas fa-leaf mr-1"></i>Efficiency & Environment</a>
+                            <a class="dropdown-item" href="/efficiency/emissions"><span class="ml-4">CO<sub>2</sub> emissions</span></a>
+                            <a class="dropdown-item" href="/efficiency/hfe"><span class="ml-4">Horizontal Flight Efficiency</span></a>
+                            <a class="dropdown-item" href="/efficiency/vfe"><span class="ml-4">Vertical Flight Efficiency</span></a>
+                            <a class="dropdown-item" href="/efficiency/asma"><span class="ml-4">Terminal Holdings</span></a>
+                            <a class="dropdown-item" href="/efficiency/taxiout"><span class="ml-4">Taxi-out</span></a>
+                            <a class="dropdown-item font-weight-bold" href="/economics"><i class="fas fa-euro-sign mr-1"></i>Economics</a>
+                            <a class="dropdown-item" href="https://www.eurocontrol.int/ServiceUnits/Dashboard/EnRouteMainDashboard.html"><span class="ml-4">Service Units</span></a>
+                            <a class="dropdown-item" href="https://www.eurocontrol.int/ServiceUnits/Dashboard/EnRouteUnitRates.html"><span class="ml-4">Unit Rates and Costs</span></a>
+                            <a class="dropdown-item" href="/economics/ace-overview"><span class="ml-4">ATM Cost Effectiveness</span></a>
+                            <a class="dropdown-item" href="/economics/finance"><span class="ml-4">ANSPs Financial Situation</span></a>
+                            <a class="dropdown-item" href="/economics/cba"><span class="ml-4">CBA</span></a>
+                            <a class="dropdown-item font-weight-bold" href="/dashboard/stakeholder"><i class="fas fa-user-friends mr-1"></i>Stakeholder views</a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/airport"><span class="ml-4">Airport View</span></a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/ansp"><span class="ml-4">ANSP View</span></a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/fab"><FAB class="ml-4">FAB View</span></a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/state"><span class="ml-4">State View</span></a>
+                            <a class="dropdown-item font-weight-bold" href="/publications"><i class="fas fa-book mr-1"></i>Publications</a>
+                            <a class="dropdown-item font-weight-bold" href="/data"><i class="fas fa-database mr-1"></i>Data</a>
+                            <a class="dropdown-item font-weight-bold" href="/reference"><i class="fas fa-hands-helping mr-1"></i>Reference</a>
+                            <a class="dropdown-item font-weight-bold" href><i class="fas fa-external-link-alt mr-1"></i>External</a>
+                            <a class="dropdown-item" href="https://www.eurocontrol.int/prudata/dashboard"><span class="ml-4">Single European Sky Portal</span></a>
+                            <a class="dropdown-item" href="https://www4.icao.int/ganpportal"><span class="ml-4">ICAO GANP</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/about/us/" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="about">
+                            <a class="dropdown-item" href="/about/prc">About the PRC</a>
+                            <a class="dropdown-item" href="/about/us">About the PRU</a>
+                            <a class="dropdown-item" href="/post">Release notes</a>
+                            <a class="dropdown-item" href="/about/disclaimer">Disclaimer</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/dashboard/" id="dashboard" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Areas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dashboard">
+                            <a class="dropdown-item" href="/traffic">Traffic</a>
+                            <a class="dropdown-item" href="/capacity">Capacity & delays</a>
+                            <a class="dropdown-item" href="/efficiency">Efficiency & environment</a>
+                            <a class="dropdown-item" href="/economics">Economics</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/transformation">Transformation</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/dashboard/stakeholder/" id="stakeholder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Views
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="stakeholder">
+                            <a class="dropdown-item" href="/dashboard/stakeholder/airport">Airports</a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/ansp">Air Navigation Service Provider</a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/fab">Functional Airspace Block</a>
+                            <a class="dropdown-item" href="/dashboard/stakeholder/state">States</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/data">Data</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/reference/" id="reference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reference</a>
+                        <div class="dropdown-menu" aria-labelledby=reference>
+                            <a class="dropdown-item" href="/definition">Definitions</a>
+                            <a class="dropdown-item" href="/methodology">Methodology</a>
+                            <a class="dropdown-item" href="/acronym">Acronyms</a>
+                            <a class="dropdown-item" href="/bibliography">Bibliography</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www4.icao.int/ganpportal">ICAO GANP <i class="fas fa-xs fa-external-link-alt"></i></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ses" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SES</a>
+                        <div class="dropdown-menu" aria-labelledby="ses">
+                            <a class="dropdown-item" href="https://www.eurocontrol.int/prudata/dashboard">Single European Sky (SES) Portal<i class="fas fa-xs fa-external-link-alt ml-1"></i></a>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <form class="form-inline ml-xl-5" method=get action="https://duckduckgo.com">
+                <input class="form-control mr-sm-2" type=search placeholder=Search aria-label=Search name=q
+                    id=srch-term>
+                <input type=hidden name=sites
+                    value="ansperformance.eu OR site:www.eurocontrol.int/prudata/dashboard/ OR site:www.eurocontrol.int/ACE/ OR site:www.eurocontrol.int/ServiceUnits/Dashboard/ OR site:www.eurocontrol.int/Economics/">
+                <input type=hidden name=ka value=h>
+                <input type=hidden name=k7 value=#fafafa>
+                <input type=hidden name=kj value=#2e86c6>
+                <input type=hidden name=ky value=#fafafa>
+                <input type=hidden name=kx value=b>
+                <input type=hidden name=kt value=Helvetica>
+                <button class="btn btn-outline border-white my-2 my-sm-0" type="submit"><i class="fas fa-search text-white"></i></button>
+                </form>
+            
+            </div>    
+
+        </nav>
+    
+    </div>
+</header>
+<!-- Header END -->
 
 
 <!-- **************** MAIN CONTENT START **************** -->
 <main>
 
+ <!-- Hero -->
+ <div class="position-relative bg-dark overflow-hidden hero" style="background-image: url(assets/imgs/background.jpg);">
+    					
+    <!-- overlay -->
+    <div class="bg-overlay"></div>
+    <div class="container position-relative zi-2">
+      <div class="row align-items-lg-center">
+        <div class="col-lg-7 mb-7 mb-lg-0">
+
+          <!-- Heading -->
+          <div class="mb-6">
+            <h1 class="display-5 text-white">Aviation Intelligence Portal</h1>
+            <p class="lead text-white">This portal is provided by the Performance Review Unit (PRU) which is part of EUROCONTROL's Aviation Intelligence Unit (AIU).</p>
+            <a class="btn btn-primary" href="/about/us/">More info</a>
+          </div>
+          <!-- End Title & Description -->
+
+            
+          </div>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+  </div>
+  <!-- End Hero -->
+
+
+
+<!-- =======================
+Status & what's new START -->
+<section class="content-space bg-light">
+
+    <script type="text/javascript">async function fetchLatestNetworkSituation(){const a='https://aiu-portal.pockethost.io/api/collections/network_situation/records?sort=-date&perPage=1&skipTotal=1';try{const b=await fetch(a);if(!b.ok)throw new Error(`API call failed: ${b.status}`);const c=await b.json();return c.items[0]}catch(a){return console.error("Failed to fetch latest network situation:",a),null}}async function updateNetworkSituationOnPage(){const a=await fetchLatestNetworkSituation();if(a){const b=new Date(a.date),j=b.getFullYear(),e=b.getMonth(),f=new Date;f.setDate(b.getDate()-6);const l=f.getMonth(),i=e==0?`1`:`1 Jan`,d=`${(''+b.getDate()).slice(-2)} ${b.toLocaleString('default',{month:'short'})} ${j}`,c=`${d}`,h=`${i} - ${d}`,k=e==l?`${(''+b.getDate()).slice(-2)-6}`:`${(''+b.getDate()).slice(-2)-6} ${b.toLocaleString('default',{month:'short'})}`,g=`${k} - ${d}`;document.getElementById("day_text_title").innerHTML=c,document.getElementById("day_text").innerHTML=c,document.getElementById("week_text").innerHTML=g,document.getElementById("y2d_text").innerHTML=h,document.getElementById("day_traffic").innerHTML=Math.round(a.day_traffic).toLocaleString(),document.getElementById("week_traffic").innerHTML=Math.round(a.avg_week_traffic).toLocaleString(),document.getElementById("y2d_traffic").innerHTML=Math.round(a.y2d_flights_total).toLocaleString(),document.getElementById("avg_y2d_traffic").innerHTML=Math.round(a.y2d_flights_daily_average).toLocaleString(),document.getElementById("dif_y2d_2019").innerHTML=(a.y2d_diff_2019_year_percentage>0?'+':'')+Math.round(a.y2d_diff_2019_year_percentage*100)+'%',document.getElementById("dif_y2d_prev_year").innerHTML=(a.y2d_diff_previous_year_percentage>0?'+':'')+Math.round(a.y2d_diff_previous_year_percentage*100)+'%',document.getElementById("dif_day_prev_week").innerHTML=(a.dif_day_prev_week>0?'+':'')+Math.round(a.dif_day_prev_week*100)+'%',document.getElementById("dif_day_prev_year").innerHTML=(a.dif_day_prev_year>0?'+':'')+Math.round(a.dif_day_prev_year*100)+'%',document.getElementById("dif_day_2019").innerHTML=(a.dif_day_2019>0?'+':'')+Math.round(a.dif_day_2019*100)+'%',document.getElementById("dif_week_prev_week").innerHTML=(a.dif_week_prev_week>0?'+':'')+Math.round(a.dif_week_prev_week*100)+'%',document.getElementById("dif_week_prev_year").innerHTML=(a.dif_week_prev_year>0?'+':'')+Math.round(a.dif_week_prev_year*100)+'%',document.getElementById("dif_week_2019").innerHTML=(a.dif_week_2019>0?'+':'')+Math.round(a.dif_week_2019*100)+'%';const m=c;document.getElementById("day_delay_text").innerHTML=m,document.getElementById("week_delay_text").innerHTML=g,document.getElementById("y2d_delay_text").innerHTML=h,document.getElementById("day_delay").innerHTML=Math.round(a.day_delay).toLocaleString(),document.getElementById("avg_week_delay").innerHTML=Math.round(a.avg_week_delay).toLocaleString(),document.getElementById("y2d_delay_daily_average").innerHTML=Math.round(a.y2d_delay_daily_average).toLocaleString(),document.getElementById("day_delay_flight").innerHTML=a.day_traffic==0?0:Math.round(a.day_delay/a.day_traffic*100)/100,document.getElementById("week_delay_flight").innerHTML=a.avg_week_traffic==0?0:Math.round(a.avg_week_delay/a.avg_week_traffic*100)/100,document.getElementById("y2d_delay_flight").innerHTML=a.y2d_flights_total==0?0:Math.round(a.y2d_delay_total/a.y2d_flights_total*100)/100,document.getElementById("dif_day_delay_prev_year_perc").innerHTML=(a.dif_day_delay_prev_year_perc>0?'+':'')+Math.round(a.dif_day_delay_prev_year_perc*100)+'%',document.getElementById("dif_day_delay_2019_perc").innerHTML=(a.dif_day_delay_2019_perc>0?'+':'')+Math.round(a.dif_day_delay_2019_perc*100)+'%',document.getElementById("dif_week_delay_prev_year_perc").innerHTML=(a.dif_week_delay_prev_year_perc>0?'+':'')+Math.round(a.dif_week_delay_prev_year_perc*100)+'%',document.getElementById("dif_week_delay_2019_perc").innerHTML=(a.dif_week_delay_2019_perc>0?'+':'')+Math.round(a.dif_week_delay_2019_perc*100)+'%',document.getElementById("dif_y2d_delay_prev_year_perc").innerHTML=(a.dif_y2d_delay_prev_year_perc>0?'+':'')+Math.round(a.dif_y2d_delay_prev_year_perc*100)+'%',document.getElementById("dif_y2d_delay_2019_perc").innerHTML=(a.dif_y2d_delay_2019_perc>0?'+':'')+Math.round(a.dif_y2d_delay_2019_perc*100)+'%'}else console.log("No data available to update the network situation.")}</script>
+    <script type="text/javascript">document.addEventListener('DOMContentLoaded',function(){updateNetworkSituationOnPage()})</script>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+
+                <h4>
+                    <span>Network Status - </span> <span id="day_text_title"></span>
+                </h4>
+
+
+                <div class="card border-0 rounded p-3 mb-4">
+
+                    <ul class="nav nav-segment nav-fill align-items-centers mb-4">
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#flights">Flights</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#delay" onclick=reloadIframeDelay()>ATFM Delay</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#punctuality">Punctuality</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="flights" class="tab-pane fade in active show">
+                            <div class="row">
+                                <div class="col-12">
+
+
+                                      <div class="row align-items-sm-center mb-4">
+                                        <div class="col-sm">
+                                          
+                                            <p class="h6 mb-0">Evolution of daily flights in the EUROCONTROL area</p>
+                                            <p class="text-muted mb-4">(7-day average)</p>
+                                         
+                                        </div>
+                                        <!-- End Col -->
+                            
+                                        <div class="col-sm-auto">
+
+                                            <ul class="nav nav-segment nav-fill">
+                                                <li class=""><a class="nav-link active" data-toggle="tab" href=#flights-day>Day</a></li>
+                                                <li class=""><a class="nav-link" data-toggle="tab" href="#flights-week">Week</a></li>
+                                                <li class=""><a class="nav-link" data-toggle="tab" href="#flights-y2d">Y2D</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <!-- End Col -->
+                                      </div>
+
+
+
+
+                                    <div class="w3-container tab-content">
+
+                                        <div id="flights-day" class="tab-pane fade in active show">
+                                          
+                                            <div class="row">
+
+                                                <div class="col-6 col-md">
+                                                    <div class="pr-3">
+                                                        <p id="day_text" class="font-weight-bold">n/a</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Col -->
+
+                                                <div class="col-6 col-md">
+                                                    <p class="Scorecard_subt mb-1 small text-muted">Total flights</p>
+                                                    <h4 id="day_traffic" class="mb-0 h5">n/a</h4>
+                                                </div>
+                                                <!-- End Col -->
+                      
+                                                <div class="col-6 col-md mb-3">
+                                                    <p class="Scorecard_subt mb-1 small text-muted">Vs prev. week</p>
+                                                    <h4 id="dif_day_prev_week" class="mb-0 h5">n/a</h4>
+                                                </div>
+                                                <!-- End Col -->
+                      
+                                                <div class="col-6 col-md">
+                                                    <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>                                        
+                                                    <h4 id="dif_day_prev_year" class="mb-0 h5">n/a</h4>
+                                                </div>
+                                                <!-- End Col -->
+                      
+                                                <div class="col-6 col-md">
+                                                    <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                                    <h4 id="dif_day_2019" class="mb-0 h5">n/a</h4>
+                                                </div>
+                                                <!-- End Col -->
+
+                                            </div>                
+
+
+                                        </div>
+                                        <div id="flights-week" class="tab-pane fade in">
+
+                                        <div class="row">
+
+                                            <div class="col-6 col-md">
+                                                <p id="week_text" class="font-weight-bold">n/a</p>
+                                            </div>
+                                            <!-- End Col -->
+                                            <div class="col-6 col-md">
+                                                <p class="Scorecard_subt mb-1 small text-muted">Avg. daily flights</p>
+                                                <h4 id="week_traffic" class="mb-0 h5">n/a</h4>
+                                            </div>
+                                            <!-- End Col -->
+                                            <div class="col-6 col-md">
+                                                <p class="Scorecard_subt mb-1 small text-muted">Vs prev. week</p>
+                                                <h4 id="dif_week_prev_week" class="mb-0 h5">n/a</h4>
+                                            </div>
+                                            <!-- End Col -->
+                                            <div class="col-6 col-md">
+                                                <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>
+                                                <h4 id="dif_week_prev_year" class="mb-0 h5">n/a</h4>
+                                            </div>
+                                            <!-- End Col -->
+                                            <div class="col-6 col-md">
+                                                <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                                <h4 id="dif_week_2019" class="mb-0 h5">n/a</h4>
+                                            </div>
+                                            <!-- End Col -->
+
+                                        </div>
+
+                                        </div>
+
+                                        <div id="flights-y2d" class="tab-pane fade in">
+
+                                        <div class="row">
+                                        <div class="col-6 col-md">
+                                            <p id="y2d_text" class="font-weight-bold">n/a</p>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Total flights</p>
+                                            <h4 id="y2d_traffic" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Avg. daily flights</p>
+                                            <h4 id="avg_y2d_traffic" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>
+                                            <h4 id="dif_y2d_prev_year" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                            <h4 id="dif_y2d_2019" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div id="graphcontainer" class="col-12">
+                                        
+                                        <iframe id="traffic-plot" style="border: 0; width: 100%; height: 380px;" src="https://www.eurocontrol.int/Economics/Oscar/plot-traffic-lp_new.html" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                                        
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="delay" class="tab-pane fade in">
+                            <div class="row">
+                                <div class="col-12">
+
+               
+                                    <div class="row align-items-sm-center mb-4">
+                                        <div class="col-sm"></div>
+                                        <!-- End Col -->
+                            
+                                        <div class="col-sm-auto">
+
+                                            <ul class="nav nav-segment nav-fill">
+                                                <li class=""><a class="nav-link active" data-toggle="tab" href=#delay-day>Day</a></li>
+                                                <li class=""><a class="nav-link" data-toggle="tab" href="#delay-week">Week</a></li>
+                                                <li class=""><a class="nav-link" data-toggle="tab" href="#delay-y2d">Y2D</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <!-- End Col -->
+                                      </div>
+
+
+
+
+                                    <div class="w3-container tab-content">
+
+                                        <div id="delay-day" class="tab-pane fade in active show">
+
+                                        <div class="row">
+                                        <div class="col-6 col-md">
+                                            <p id="day_delay_text" class="font-weight-bold">n/a</p>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Total delay</p>
+                                            <h4 id="day_delay" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>
+                                            <h4 id="dif_day_delay_prev_year_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                            <h4 id="dif_day_delay_2019_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Delay/flight</p>
+                                            <h4 id="day_delay_flight" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        </div>
+
+                                        </div>
+
+                                        <div id="delay-week" class="tab-pane fade in">
+
+                                        <div class="row">
+                                        <div class="col-6 col-md">
+                                            <p id="week_delay_text">n/a</p>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Avg. daily delay</p>
+                                            <h4 id="avg_week_delay" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>
+                                            <h4 id="dif_week_delay_prev_year_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                            <h4 id="dif_week_delay_2019_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Avg. delay/flight</p>
+                                            <h4 id="week_delay_flight" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        </div>
+
+                                        </div>
+
+                                        <div id="delay-y2d" class="tab-pane fade in">
+
+                                        <div class="row">
+                                        <div class="col-6 col-md">
+                                            <p id="y2d_delay_text">n/a</p>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Avg. daily delay</p>
+                                            <h4 id="y2d_delay_daily_average" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs prev. year</p>
+                                            <h4 id="dif_y2d_delay_prev_year_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Vs 2019</p>
+                                            <h4 id="dif_y2d_delay_2019_perc" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-6 col-md">
+                                            <p class="Scorecard_subt mb-1 small text-muted">Avg. delay/flight</p>
+                                            <h4 id="y2d_delay_flight" class="mb-0 h5">n/a</h4>
+                                        </div>
+                                        <!-- End Col -->
+                                        </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    
+                                        <iframe id="delay-plot" class="resp-iframe" style="border: 0; width: 100%; height: 380px;" src="https://www.eurocontrol.int/Economics/Oscar/plot-delay-traffic-lp.html" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                                    
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="punctuality" class="tab-pane fade in">
+                            <div class="row mt-3">
+                                <div class="col-sm-4">
+                                    <div>
+                                        <iframe id="delay-plot-gauge" class="resp-iframe" style="border: 0; width: 100%; height: 400px;" src=https://www.eurocontrol.int/Economics/Oscar/plot-pun-nw-gauge.html sandbox="allow-scripts allow-same-origin" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div>
+                                        <iframe id="delay-plot-evo" class="resp-iframe" style="border: 0; width: 100%; height: 400px;" src="https://www.eurocontrol.int/Economics/Oscar/plot-pun-nw-evo.html" sandbox="allow-scripts allow-same-origin" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+            <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js></script>
+            <script>$(document).ready(function () { $('a[data-toggle="tab"]').on('shown.bs.tab', function (a) { var b = $(a.target).attr("href"), c = $(b).find('iframe'); c.each(function () { var a = $(this), b = a.attr('src'); a.attr('src', ''), setTimeout(function () { a.attr('src', b) }, 10) }) }) })</script>
+            
+            
+            
+            <div class="col-md-4">
+                <h4>What's new?</h4>
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div id="carousel-item" class="carousel-item active">
+
+
+                            <div class="card rounded border-0">
+                                <img class="card-img-top" src="assets/imgs/landing/performance-review-commission.jpg" alt="Published: An intro video to the Performance Review Commission">
+                                <div id="published-an-intro-video-to-the-performance-review-commission" class="card-body">
+                                    <h5><a href="https://www.youtube.com/watch?v=zLS7bPgazlU" target="_blank">Published: An intro video to the Performance Review Commission</a></h5>
+                                    <p class="small">Learn more about the Performance Review Commission in this new video!</p>
+                                </div>
+                                              
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="https://www.youtube.com/watch?v=zLS7bPgazlU">View <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carousel-item" class="carousel-item">
+                            <div class="card rounded border-0">
+                                <img class="card-img-top" src="assets/imgs/landing/prc-performance.jpg" alt="Published: PRC Performance Insight #10 - ATM Cost-Effectiveness">
+                                <div id="published-prc-performance-insight-10---atm-cost-effectiveness" class="card-body">
+                                    <h5><a href="https://www.eurocontrol.int/publication/prc-performance-insight-10-atm-cost-effectiveness" target="_blank">Published: PRC Performance Insight #10 - ATM Cost-Effectiveness</a></h5>
+                                    <p class="small">The 10th PRC Performance Insight provides a review of the regulatory and institutional context in which Air Navigation Providers (ANSPs) operate and looks at the different corporate governance arrangements currently in place.</p>
+                                </div>
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="https://www.eurocontrol.int/publication/prc-performance-insight-10-atm-cost-effectiveness">Read more <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carousel-item" class="carousel-item">
+                            <div class="card rounded border-0">
+                                <img class="card-img-top" src="assets/imgs/landing/prc-observer.jpg" alt="Published: PRC Observer #1 - Can we make aviation green?"></a>
+                                <div id="published-prc-observer-1---can-we-make-aviation-green" class="card-body">
+                                    <h5><a href="https://www.eurocontrol.int/publication/prc-observer-1-how-can-we-make-aviation-green" target="_blank">Published: PRC Observer #1 - Can we make aviation green?</a></h5>
+                                    <p class="small">The PRC takes a brief look at the environmental performance of European aviation and the challenges ahead. How can we make aviation green?</p>
+                                </div>
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="https://www.eurocontrol.int/publication/prc-observer-1-how-can-we-make-aviation-green">Read more <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carousel-item" class="carousel-item">
+                            <div class="card rounded border-0">
+                                <img class="card-img-top" src="assets/imgs/landing/economic-analysis.jpg" alt="Published: EUROCONTROL Standard Inputs for Economic Analysis (Edition 10.0)">
+                                <div id="published-eurocontrol-standard-inputs-for-economic-analysis-edition-10.0" class="card-body">
+                                    <h5><a href="https://www.eurocontrol.int/publication/eurocontrol-standard-inputs-economic-analyses" target=_blank>Published: EUROCONTROL Standard Inputs for Economic Analysis (Edition 10.0)</a></h5>
+                                    <p class="small">An update of Standard Inputs for Economic Analyses is now available.</p>
+                                </div>
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="https://www.eurocontrol.int/publication/eurocontrol-standard-inputs-economic-analyses">Read story <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carousel-item" class="carousel-item">
+                            <div class="card rounded border-0">
+                                <img class="card-img-top" src="assets/imgs/landing/data-snapshot-44.jpg" alt="Published: Data Snapshot #44 - The causes of flight delays">
+                                <div id="published-data-snapshot-44---the-causes-of-flight-delays" class="card-body">
+                                    <h5><a href="https://www.eurocontrol.int/publication/eurocontrol-data-snapshot-44-causes-flight-delays" target="_blank">Published: Data Snapshot #44 - The causes of flight delays</a></h5>
+                                    <p class="small">Our 44th EUROCONTROL Data Snapshot delves into the causes of flight delays. In 2023, nearly 3 flights in 10 arrived more than 15 minutes late. What is causing this?</p>
+                                </div>
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="https://www.eurocontrol.int/publication/eurocontrol-data-snapshot-44-causes-flight-delays">Read more <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carousel-item" class="carousel-item">
+                            <div class="card rounded border-0 shadow-sm">
+                                <img class="card-img-top" src="assets/imgs/landing/performance-data-update.jpg" alt="Performance Data Update">
+                                <div id="performance-data-update" class="card-body">
+                                    <h5><a href="/data/" target="_blank">Performance Data Update</a></h5>
+                                    <p class="small">June 2024 data available for download now!</p>
+                                </div>
+                                <div class="card-footer pt-0">
+                                    <a class="card-link" href="/data/">Read more <i class="ml-2 fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<p>
+                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+                    </p>-->
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+</section>
+<!-- =======================
+Status & what's new END -->
+
 
 <!-- =======================
 Focus Areas START -->
-<section class="pt-5">
+<section class="content-space">
 	<div class="container">
 		<!-- Title -->
 		<div class="row">
@@ -102,7 +693,7 @@ Focus Areas START -->
 						</figure>
 	
 						<!-- Content -->
-						<h5 class="mb-3 font-weight-bold">En-route and airport delays</h5>
+						<h5 class="mb-3 font-weight-bold">Capacity & Delays</h5>
 						<p>En-route and airport ATFM delays</p>
 					</div>
 
@@ -234,9 +825,112 @@ Focus Areas END -->
 
 
 
+<!-- =======================
+About START -->
+<section class="content-space bg-light">
+    <div class="container">
+     
+    <div class="row">
+    <div class="col-md-12">
+
+        <div class="row justify-content-between">
+
+        <div class="col-md-6 col-lg-7 mb-4 mb-md-0">
+
+            <div class="card card-body bg-transparent h-100 px-0 border-0">
+            <h2 class="mb-md-4">About the Aviation Intelligence Portal</h2>
+            <p class="mb-4">In support of the independent work of the <a href="/about/prc">Performance Review Commission (PRC)</a> this portal aims to:</p>
+           
+            <ul class="mb-md-4">
+                <li>ensure that all stakeholders in all <a href="/definition/eurocontrol-area">EUROCONTROL States</a> have high quality information on <a href="/acronym/ans">ANS</a> performance available in a transparent, accurate, complete and unbiased manner;</li>
+                <li>stimulate an informed dialogue between all stakeholders for the benefit of the entire aviation network; and,</li>
+                <li>further develop the <a href="/acronym/ans">ANS</a> performance analysis framework and the understanding of key <a href="/acronym/ans">ANS</a> performance issues.</li>
+            </ul>
+
+            
+                <p class="font-weight-bold">Feedback or questions? <a href="/cdn-cgi/l/email-protection#9ccccec9b1cfe9ececf3eee8dcf9e9eef3fff3f2e8eef3f0b2f5f2e8">Please contact us<i class="ml-1 fa fa-envelope"></i></a></p>
+           
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6 col-lg-4 ms-auto">
+            <div class="card bg-primary rounded h-100 overflow-hidden p-4">
+               <!-- Card body -->
+                <div class="card-body p-0">
+                    <h4 class="text-white">Subscribe</h4>
+                    <p class="text-white">Get informed about our newsletters, publications, and data updates!</p>
+                </div>
+
+                <!-- Card footer -->
+                <div class="card-footer d-grid text-center p-0 mt-8">
+                    <a href="https://www.eurocontrol.int/form/aviation-intelligence-unit-aiu-newsletter" class="btn btn-block btn-light mb-3">Subscribe</a>
+                    <p class="mb-0 text-white small"><a href="/about/privacy/" class="text-white">Read our privacy protection statement</a></p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+    </div>
+    
+    </div>
+</section>
+<!-- =======================
+about END -->
+
 
 </main>
 <!-- **************** MAIN CONTENT END **************** -->
+
+
+<!-- =======================
+Footer START -->
+
+<footer>
+    <div class="container pb-1 pb-lg-5 pt-5">
+  
+      <div class="row mb-5">
+        <div class="col-sm mb-3 mb-sm-0">
+            <ul class="list-inline list-separator mb-0">
+                <li class="list-inline-item">
+                    <p class="text-muted small">&copy; 2024 EUROCONTROL</p>
+                </li>
+                <li class="list-inline-item"><a class="text-muted" href="/about/disclaimer">Disclaimer</a></li>
+                <li class="list-inline-item"><a class="text-muted" href="https://www.eurocontrol.int/info/privacy-and-website-terms-use" target="_blank">Privacy statement</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-auto">
+            <ul class="list-inline list-separator mb-0">
+                <li class="list-inline-item"><p class="text-muted"><a class="text-muted small" href="https://www.eurocontrol.int/form/aviation-intelligence-unit-aiu-newsletter">Subscribe to our Newsletter<i class="fas fa-envelope ml-1"></i></a> or <a class="text-muted small" href=/index.xml type=application/rss+xml target=_blank>RSS<i class="fas fa-rss ml-1"></i></a></p></li>
+                <li class="list-inline-item"><a class="text-muted" href="/about/help"><i class="fas fa-question-circle"></i></a></li>
+                <li class="list-inline-item"><a class="text-muted" href="/about/howbuilt"><i class="fas fa-cogs"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- =======================
+Footer END -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script>function reloadIframeDelay() { var a = $("#delay-plot"); a.attr("src", a.data("src")) }</script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="/javascript/math-code.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type ="application/javascript">var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-RJ3R0C35X7','auto'),ga('send','pageview'))</script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.3.1/anchor.min.js" integrity="sha512-zPB79j2C+3sFS9zcA3vg/z6bVKzJVEyu9pY5w89akQRys76zpAT2t6S3wZKla3QQ14O5l/Yt0RUQ/DHXx82Y5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>anchors.add()</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJ3R0C35X7"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag('js', new Date), gtag('config', 'G-RJ3R0C35X7')</script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'8abc19374e78b721',t:'MTcyMjQxMzI4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+
 
 
 </body>
